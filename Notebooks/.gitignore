@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter: archivos de checkpoints
+.ipynb_checkpoints/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+
+# Datos locales: revisar antes de publicar
+data/raw/
+data/private/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
